@@ -1,0 +1,18 @@
+$(function(){
+    
+    
+    
+   
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+}); // fin fonction principale
