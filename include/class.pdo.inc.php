@@ -56,7 +56,7 @@ class PdoEtablissement{
   }
 
   public static  function getLesEtablissements($vArr){
-      $req = "select nom from etablissement where arrondissement = $vArr";
+      $req = "select DISTINCT nom from etablissement where arrondissement = $vArr";
   $rs = self::$monPdo->query($req);
   while($ligne = $rs->fetch()){
     echo '<option value = "'.$ligne["nom"].'">'.$ligne["nom"].'</option>';
@@ -64,6 +64,7 @@ class PdoEtablissement{
 }
 
 public static function getLesEtablissementsDetails($vNom){
+
   $req = "select * from etablissement where nom = '".$vNom."'";
 $rs = self::$monPdo->query($req);
 while($ligne = $rs->fetch()){
