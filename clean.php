@@ -1,0 +1,3 @@
+<?php
+//n'affiche rien.
+?>

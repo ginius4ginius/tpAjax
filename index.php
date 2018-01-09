@@ -1,6 +1,7 @@
+<!DOCTYPE html>
 <html>
     <head>
-        <title></title>
+        <title>tpAjax</title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <script src="js/jquery.js" type="text/javascript"></script>
         <script src="js/jsFonc.js" type="text/javascript"></script>
