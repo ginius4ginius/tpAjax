@@ -18,8 +18,8 @@
 class PdoEtablissement{
       	private static $serveur='mysql:host=localhost';
       	private static $bdd='dbname=ajax';
-      	private static $user='ginius' ;
-      	private static $mdp='WPO22.ADERIEUV93' ;
+      	private static $user='root' ;
+      	private static $mdp='' ;
 	private static $monPdo;
 	private static $monPdoEtablissement=null;
 /**
