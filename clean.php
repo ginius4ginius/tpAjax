@@ -1,3 +1,0 @@
-<?php
-//n'affiche rien.
-?>
