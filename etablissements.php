@@ -8,3 +8,13 @@
          <option  selected value='0'>...</option>
         <?php echo $pdo->getLesEtablissements($vArr); ?>
  </optgroup>
+
+<!--
+<div class="ecoles">
+
+</div>
+
+<div class="etablissements">
+
+</div>
+-->
